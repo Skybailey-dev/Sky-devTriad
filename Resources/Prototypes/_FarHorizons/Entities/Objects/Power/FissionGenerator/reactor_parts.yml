@@ -89,7 +89,7 @@
     iconStateCap: "gas_cap"
     thermalCrossSection: 15
     gasVolume: 100
-    thermalMass: 50000 #Triad: Increased its thermal mass(from 21000), making heat exhangers better for thermal exchange, but makes gas channels a little better for acting as heat storage, making coolant heating smoother.
+    thermalMass: 50000 #Triad: Increased its thermal mass(from 21000), making heat exchangers better for thermal exchange, but makes gas channels a little better for acting as heat storage, making coolant heating smoother.
   - type: PhysicalComposition
     materialComposition:
       Steel: 250
