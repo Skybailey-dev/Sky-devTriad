@@ -5031,3 +5031,10 @@ Entries:
   id: 2621
   time: '2026-09-24T15:31:22.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/659
+- author: Nox38
+  changes:
+    - type: Tweak
+      message: Slightly improve TDF CE and LT job icons.
+  id: 2622
+  time: '2026-09-24T19:55:40.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/661
