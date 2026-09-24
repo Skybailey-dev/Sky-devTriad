@@ -24,6 +24,13 @@
         path: /Audio/Effects/shuttle_thruster.ogg
     - type: Transform
       anchored: true
+    - type: WirelessNetworkConnection #triad start
+      range: 200
+    - type: DeviceLinkSink
+      ports:
+        - On
+        - Off
+        - Toggle #end triad
     - type: Physics
       bodyType: Static
     - type: Rotatable

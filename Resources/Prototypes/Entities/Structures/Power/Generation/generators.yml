@@ -27,6 +27,13 @@
         - MachineMask
         layer:
         - MachineLayer
+  - type: WirelessNetworkConnection #triad start
+    range: 200
+  - type: DeviceLinkSink
+    ports:
+      - On
+      - Off
+      - Toggle #end triad
   - type: Transform
     anchored: true
     noRot: true
