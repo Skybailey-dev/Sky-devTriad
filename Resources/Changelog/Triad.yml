@@ -5038,3 +5038,10 @@ Entries:
   id: 2622
   time: '2026-09-24T19:55:40.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/661
+- author: Cabin-keeper
+  changes:
+    - type: Add
+      message: Added a recipe for tear gas.
+  id: 2623
+  time: '2026-09-24T23:43:11.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/660
