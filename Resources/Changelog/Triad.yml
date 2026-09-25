@@ -5045,3 +5045,16 @@ Entries:
   id: 2623
   time: '2026-09-24T23:43:11.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/660
+- author: rebaserHEAD
+  changes:
+    - type: Add
+      message: >-
+        TFA High Command has an outpost of its own, reachable only by admins and
+        the ships they clear.
+    - type: Fix
+      message: >-
+        Readying up for a job only one station offers, like TDF Chief Enforcer,
+        now starts you in that job instead of sometimes as a Contractor.
+  id: 2624
+  time: '2026-09-25T01:59:46.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/662
