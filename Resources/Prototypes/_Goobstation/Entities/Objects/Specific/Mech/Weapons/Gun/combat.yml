@@ -221,7 +221,7 @@
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_uac2
   - type: Gun
-    fireRate: 3 # Triad, 4.5->3, changed from mono's value to compensate for the more powerful round
+    fireRate: 2.5 # Triad, 4.5->2.5, changed from mono's value to compensate for the more powerful round.
     projectileSpeed: 50 # Triad, 55->50, more powerful but slower round (standardizing slightly)
     selectedMode: FullAuto
     availableModes:
