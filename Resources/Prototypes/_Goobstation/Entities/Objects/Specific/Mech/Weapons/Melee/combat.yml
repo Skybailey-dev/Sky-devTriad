@@ -3,7 +3,7 @@
   parent: [ BaseMechWeaponMelee, CombatMechEquipment  ]
   name: exosuit chainsword
   suffix: Mech Weapon, Melee, Combat
-  description: Equipment for combat exosuits. This is the mechanical chainsword that'll pierce the heavens!
+  description: Equipment for combat exosuits. Reinforced teeth, designed to shred through armor and hull alike.
   components:
   - type: Sprite
     state: mecha_chainsword
@@ -16,6 +16,7 @@
     attackRate: 3.5
     damage:
       types:
-        Structural: 40 # 52.5->40 - Triad, changed from mono
-        Piercing: 20 # 30->20 - Triad, changed from mono
-        Slash: 20 # 0->20 - Triad, changed from mono
+        Structural: 80 # 52.5->80 - Triad, upped to make it competetive despite flat damage reductions
+        Piercing: 10 # 30->10 - Triad, changed from mono
+        Slash: 25 # 0->25 - Triad, changed from mono
+      armorPenetration: 0.4 #Triad, added. Lets it partially ignore the flat damage reductions that would otherwise shaft its efficacy against walls and other mechs.
