@@ -156,6 +156,7 @@
   description: Don't smudge up the rads down there.
   suffix: Rad-Proof
   components:
+  - price: 3000
   - type: RadiationBlocker
     resistance: 6.5 #triad- R-Uranium windows are 5
   - type: Sprite
@@ -177,6 +178,7 @@
   description: Don't smudge up the rads down there.
   suffix: Rad-Proof
   components:
+  - price: 3000
   - type: RadiationBlocker
     resistance: 6.5 #triad- R-Uranium windows are 5
   - type: Sprite
