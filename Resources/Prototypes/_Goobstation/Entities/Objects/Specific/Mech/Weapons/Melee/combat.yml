@@ -10,13 +10,14 @@
   - type: MeleeWeapon
     autoAttack: true
     angle: 0
+    canWideSwing: false #Triad, wideswing on mechs is broken- will visibly do it but will not actually do anything. Prevent it to prevent confusion.
     wideAnimationRotation: -90
     soundHit:
       path: "/Audio/Weapons/chainsaw.ogg"
     attackRate: 3.5
+    armorPenetration: 0.4 #Triad, added. Lets it partially ignore the flat damage reductions that would otherwise shaft its efficacy against walls and other mechs.
     damage:
       types:
         Structural: 80 # 52.5->80 - Triad, upped to make it competetive despite flat damage reductions
         Piercing: 10 # 30->10 - Triad, changed from mono
         Slash: 25 # 0->25 - Triad, changed from mono
-      armorPenetration: 0.4 #Triad, added. Lets it partially ignore the flat damage reductions that would otherwise shaft its efficacy against walls and other mechs.
