@@ -147,7 +147,7 @@
   - type: TimedDespawn
     lifetime: 1800
 
-#plastitanium but blocks rads 100%
+#plastitanium but blocks rads well
 
 - type: entity
   id: PlasturaniumWindowDiagonalRadProof
@@ -157,7 +157,7 @@
   suffix: Rad-Proof
   components:
   - type: RadiationBlocker
-    resistance: 100
+    resistance: 6.5 #triad- R-Uranium windows are 5
   - type: Sprite
     drawdepth: WallTops
     sprite: _Mono/Structures/Windows/plasturanium_window_diagonal.rsi
@@ -166,6 +166,9 @@
     state: state0
   - type: ArmorThickness
     thickness: 30
+  - type: Construction # Triad - Makeable
+    graph: plasturaniumWindowDiagonalRadProof # Triad
+    node: plasturaniumWindowDiagonalRadProof # Triad
 
 - type: entity
   id: PlasturaniumWindowRadProof
@@ -175,7 +178,7 @@
   suffix: Rad-Proof
   components:
   - type: RadiationBlocker
-    resistance: 100
+    resistance: 6.5 #triad- R-Uranium windows are 5
   - type: Sprite
     drawdepth: WallTops
     sprite: _Mono/Structures/Windows/plasturanium_window.rsi
@@ -184,6 +187,9 @@
     state: full
   - type: ArmorThickness
     thickness: 30
+  - type: Construction # Triad - Makeable
+    graph: plasturaniumWindowRadProof # Triad
+    node: plasturaniumWindowRadProof # Triad
 
 #plastitanium but blocks rads 100% (industructible var.)
 
