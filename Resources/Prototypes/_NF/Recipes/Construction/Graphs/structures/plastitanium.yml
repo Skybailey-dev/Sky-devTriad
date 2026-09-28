@@ -56,7 +56,7 @@
               doAfter: 1
 
 - type: constructionGraph #Triad
-  id: plasturaniumWindowRadProof
+  id: PlasturaniumWindowRadProof
   start: start
   graph:
     - node: start
@@ -115,7 +115,7 @@
               doAfter: 1
 
 - type: constructionGraph #Triad
-  id: plasturaniumWindowDiagonalRadProof
+  id: PlasturaniumWindowDiagonalRadProof
   start: start
   graph:
     - node: start

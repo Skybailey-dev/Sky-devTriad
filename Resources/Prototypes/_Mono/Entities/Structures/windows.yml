@@ -167,7 +167,7 @@
   - type: ArmorThickness
     thickness: 30
   - type: Construction # Triad - Makeable
-    graph: plasturaniumWindowDiagonalRadProof # Triad
+    graph: PlasturaniumWindowDiagonalRadProof # Triad
     node: plasturaniumWindowDiagonalRadProof # Triad
 
 - type: entity
@@ -188,7 +188,7 @@
   - type: ArmorThickness
     thickness: 30
   - type: Construction # Triad - Makeable
-    graph: plasturaniumWindowRadProof # Triad
+    graph: PlasturaniumWindowRadProof # Triad
     node: plasturaniumWindowRadProof # Triad
 
 #plastitanium but blocks rads 100% (industructible var.)
