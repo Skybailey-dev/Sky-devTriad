@@ -24,7 +24,7 @@
 - type: entity
   id: WeaponMechCombatImmolationGun
   name: ZFI Immolation Beam Gun
-  description: A combat-exo mounted fast shooting Xray beamer. # Triad, tweaked to reflect its stats.
+  description: A combat-exo mounted fast shooting X-ray beamer. # Triad, tweaked to reflect its stats.
   suffix: Mech Weapon, Gun, Combat, Laser
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
