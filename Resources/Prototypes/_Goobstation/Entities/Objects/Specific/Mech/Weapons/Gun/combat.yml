@@ -47,7 +47,7 @@
 - type: entity
   id: WeaponMechCombatSolarisLaser
   name: CH-LC "Solaris" laser cannon
-  description: A combat-exo mounted Laser Cannon. # Triad, fixed desc
+  description: A combat-exo mounted laser cannon. # Triad, fixed desc
   suffix: Mech Weapon, Gun, Combat, Laser
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
