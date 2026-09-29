@@ -93,7 +93,7 @@
 - type: entity
   id: WeaponMechCombatTeslaCannon
   name: P-X Tesla Cannon
-  description: A combat-exo mounted weapon, firing energy balls, based on the principle of an experimental Tesla engine. # Triad, fixed desc
+  description: A combat-exo mounted weapon, firing energy balls, based on the principle of an experimental tesla engine. # Triad, fixed desc
   suffix: Mech Weapon, Gun, Combat, Tesla
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
