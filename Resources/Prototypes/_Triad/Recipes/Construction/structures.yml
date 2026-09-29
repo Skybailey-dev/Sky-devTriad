@@ -38,7 +38,7 @@
 - type: construction
   name: plasturanium window
   id: plasturaniumWindowRadProof
-  graph: plasturaniumWindowRadProof
+  graph: PlasturaniumWindowRadProof
   startNode: start
   targetNode: plasturaniumWindowRadProof
   category: construction-category-structures
