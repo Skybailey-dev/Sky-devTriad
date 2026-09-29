@@ -237,7 +237,7 @@
 - type: entity
   id: WeaponMechCombatMissileRack8
   name: SRM-8 Light Rocket Rack
-  description: A cmbat-exo mounted rocket rack, that fires 4 light rockets in a quick burst. Takes awhile to re-arm # Triad.
+  description: A combat-exo mounted rocket rack, that fires 4 light rockets in a quick burst. Takes a while to re-arm # Triad.
   suffix: Mech Weapon, Gun, Combat, Light Missile
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
