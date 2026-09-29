@@ -57,7 +57,7 @@
 - type: construction
   name: diagonal plasturanium window
   id: plasturaniumWindowDiagonalRadProof
-  graph: plasturaniumWindowDiagonalRadProof
+  graph: PlasturaniumWindowDiagonalRadProof
   startNode: start
   targetNode: plasturaniumWindowDiagonalRadProof
   category: construction-category-structures
