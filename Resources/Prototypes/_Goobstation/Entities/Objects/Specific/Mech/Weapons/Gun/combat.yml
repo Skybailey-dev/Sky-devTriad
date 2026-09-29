@@ -142,7 +142,7 @@
 - type: entity
   id: WeaponMechCombatTaser
   name: PBT "Pacifier" Mounted Taser
-  description: A combat-exo mounted non-lethal taser that allows you to stun intruders. #triad
+  description: A combat-exo mounted non-lethal taser that allows you to stun intruders. # Triad
   suffix: Mech Weapon, Gun, Combat, Disabler, admeme
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
