@@ -3,7 +3,7 @@
   parent: [ BaseMechWeaponMelee, CombatMechEquipment  ]
   name: exosuit chainsword
   suffix: Mech Weapon, Melee, Combat
-  description: Equipment for combat exosuits. Reinforced teeth, designed to shred through armor and hull alike.
+  description: A combat-exo mounted chainsaw, with reinforced teeth designed to shred through armor and hulls alike.
   components:
   - type: Sprite
     state: mecha_chainsword
