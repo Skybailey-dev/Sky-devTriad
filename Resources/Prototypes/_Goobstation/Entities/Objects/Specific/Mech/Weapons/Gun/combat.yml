@@ -265,7 +265,7 @@
 
 - type: entity
   id: WeaponMechCombatMissileRack6
-  name: BRM-6 Rocket Pod
+  name: BRM-6 Rocket Pod #Triad name change
   description: A combat-exo mounted, singular rocket pod. Slowly fires thermobaric rounds perfect for clearing soft targets. #triad
   suffix: Mech Weapon, Gun, Combat, Missile
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
