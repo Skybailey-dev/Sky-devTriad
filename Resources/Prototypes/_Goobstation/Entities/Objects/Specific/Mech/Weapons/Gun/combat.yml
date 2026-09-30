@@ -293,7 +293,7 @@
 - type: entity
   id: WeaponMechCombatFlashbangLauncher
   name: SGL-6 Flashbang Launcher
-  description: A light mech mounted weapon that launches 40mm flash grenades, to blind intruders an immoral quantity. # Triad, redid description. This is not a missile launcher.
+  description: A light mech mounted weapon that launches 40mm flash grenades, to temporarily blind unreasonable amounts of intruders. # Triad, redid description. This is not a missile launcher.
   suffix: Mech Weapon, Gun, Combat, Flashbang
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
