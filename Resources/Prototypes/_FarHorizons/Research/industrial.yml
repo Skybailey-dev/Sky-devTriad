@@ -45,7 +45,6 @@
   - NuclearReactorMachineCircuitboard # Triad
   - GasTurbineMachineCircuitboard
   - PlutoniumReactorFuelRod
-  - HighEnrichedUraniumReactorFuelRod # Triad
   - BananiumReactorFuelRod
   - GoldReactorControlRod
   - DiamondReactorControlRod
