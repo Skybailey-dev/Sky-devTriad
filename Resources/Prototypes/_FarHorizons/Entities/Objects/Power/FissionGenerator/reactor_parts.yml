@@ -155,6 +155,20 @@
   - type: ReactorPart
     material: Plasteel
 
+- type: entity #triad start
+  id: ReactorPartMaterialIridite
+  abstract: true
+  components:
+  - type: ReactorPart
+    material: Iridite
+
+- type: entity
+  id: ReactorPartMaterialPlastitanium
+  abstract: true
+  components:
+  - type: ReactorPart
+    material: Plastitanium #traid end
+
 - type: entity
   id: ReactorPartMaterialGlass
   abstract: true
