@@ -54,10 +54,10 @@
   color: "#252229"
   price: 12.5 # 1250/sheet
   properties: # FH edit
-    electrical: 10 #Triad:  Was a bit TOO good at thermal and electrical- better than it needs to be for balance. Better than gold, by a good bit
+    electrical: 8 #Triad:  Was a bit TOO good at thermal and electrical- better than it needs to be for balance. Better than gold, by a good bit
     thermal: 8
     hard: 3 #Triad: Not very hard- low reflection chance.
-    density: 1 # Triad: Very low interaction chance
+    density: 1 # Triad: Very low interaction chance, usually ignoring neutrons
     chemical: 9
     plasma_offgas: 0
 
@@ -134,7 +134,6 @@
     hard: 7 # Triad: Really reflective, sure, but not more than diamonds!
     density: 9
     chemical: 6
-    plasma_offgas: 0
 
 - type: entity
   parent: MaterialBase
@@ -304,6 +303,7 @@
     chemical: 6
     radioactive: 0.3 #Triad, DU isn't very radioactive
     n_radioactive: 0.75 #Triad, nor is it very fissile
+    fertility: 3 #Triad, DU is VERY fertile
 
 - type: entity
   parent: MaterialBase

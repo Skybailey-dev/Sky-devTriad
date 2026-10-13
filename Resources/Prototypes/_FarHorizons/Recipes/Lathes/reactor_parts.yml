@@ -10,7 +10,7 @@
 ## Recipes
 
 # Fuel Rods
-# 5 Steel + 3 Fuel
+# 5 Steel + 5 Fuel #Triad, more cost but more product
 - type: latheRecipe
   parent: BaseReactorPartRecipe
   id: CerenkiteReactorFuelRod
@@ -18,7 +18,7 @@
   materials:
     Steel: 500
     Plasma: 200
-    Uranium: 100
+    Uranium: 300 #triad
 
 - type: latheRecipe
   parent: BaseReactorPartRecipe
@@ -26,8 +26,8 @@
   result: UraniumReactorFuelRod
   materials:
     Steel: 500
-    UraniumFissile: 15 #triad
-    UraniumDepleted: 285 #triad
+    UraniumFissile: 25 #triad
+    UraniumDepleted: 475 #triad
 
 - type: latheRecipe #triad start, custom fuel rod recipes
   parent: BaseReactorPartRecipe
@@ -35,8 +35,8 @@
   result: HighEnrichedUraniumReactorFuelRod
   materials:
     Steel: 500
-    UraniumFissile: 60
-    UraniumDepleted: 240 #triad end
+    UraniumFissile: 100
+    UraniumDepleted: 400
 
 
 - type: latheRecipe
@@ -44,9 +44,11 @@
   id: CladdedPlutoniumReactorFuelRod
   result: CladdedPlutoniumReactorFuelRod
   materials:
-    Plasteel: 500
-    Plastitanium: 150
-    Plutonium: 150 #triad end
+    Plasteel: 250
+    Plastitanium: 250
+    UraniumDepleted: 300
+    Plutonium: 50 #triad end
+    Iridite: 50
 
 - type: latheRecipe
   parent: BaseReactorPartRecipe
@@ -54,8 +56,8 @@
   result: PlutoniumReactorFuelRod
   materials:
     Plasteel: 500 #triad
-    Plutonium: 150 #triad
-    UraniumDepleted: 150 #triad
+    Plutonium: 100 #triad
+    UraniumDepleted: 400 #triad
 
 - type: latheRecipe
   parent: BaseReactorPartRecipe
@@ -63,7 +65,7 @@
   result: BananiumReactorFuelRod
   materials:
     Steel: 500
-    Bananium: 300
+    Bananium: 500 #triad
 
 - type: latheRecipe
   parent: BaseReactorPartRecipe
@@ -71,15 +73,15 @@
   result: PlasmaReactorFuelRod
   materials:
     Steel: 500
-    Plasma: 300
+    Plasma: 500 #triad
 
 - type: latheRecipe
   parent: BaseReactorPartRecipe
   id: UraniumGlassReactorFuelRod
   result: UraniumGlassReactorFuelRod
   materials:
-    Steel: 500
-    UraniumGlass: 300
+    Steel: 300 #triad- ceramic material
+    UraniumGlass: 700 #triad
 
 # Control Rods
 # 5 Steel + 10 Material

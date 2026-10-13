@@ -58,6 +58,9 @@
   - type: SentienceTarget
     flavorKind: station-event-random-sentience-flavor-inanimate
     weight: 0.2
+  - type: PhysicalComposition #Triad Start
+    materialComposition:
+      Cerenkite: 1000 #Triad End
 
 - type: entity
   id: BaseReactorControlRod
@@ -142,6 +145,27 @@
     material: Silver
 
 - type: entity
+  id: ReactorPartMaterialHEU
+  abstract: true
+  components:
+  - type: ReactorPart
+    material: FuelHEU
+
+- type: entity
+  id: ReactorPartMaterialLEU
+  abstract: true
+  components:
+  - type: ReactorPart
+    material: FuelLEU
+
+- type: entity
+  id: ReactorPartMaterialMOX
+  abstract: true
+  components:
+  - type: ReactorPart
+    material: FuelMOX
+
+- type: entity
   id: ReactorPartMaterialBrass
   abstract: true
   components:
@@ -208,10 +232,7 @@
   description: A standard uranium fuel rod with 5% fissile uranium concentration. #Triad
   components:
   - type: ReactorPart
-  - type: PhysicalComposition #Triad, making use of isotropics. 5% enrichment.
-    materialComposition:
-      UraniumFissile: 50
-      UraniumDepleted: 950
+    material: FuelLEU
 
 - type: entity
   id: HighEnrichedUraniumReactorFuelRod
@@ -220,47 +241,25 @@
   description: A more active uranium fuel rod with 20% fissile uranium concentration. #Triad
   components:
   - type: ReactorPart
-  - type: PhysicalComposition #Triad, making use of isotropics. 20% enrichment.
-    materialComposition:
-      UraniumFissile: 200
-      UraniumDepleted: 800
+    material: FuelHEU
 
 - type: entity
   id: CladdedPlutoniumReactorFuelRod
   parent: BaseReactorFuelRod
   name: Cladded Plutonium Fuel Rod #Triad
-  description: A high activity plutonium fuel rod, cladded with plastitanium for safer handling and improved performance. #Triad
+  description: A very high activity plutonium fuel rod, cladded with plastitanium and iridite for safer handling and improved thermal performance. #Triad
   components:
   - type: ReactorPart
-  - type: PhysicalComposition #Triad, making use of isotropics.
-    materialComposition:
-      Plutonium: 500
-      Plastitanium: 500
+    material: FuelMOX
 
 - type: entity
   id: PlutoniumReactorFuelRod
   parent: BaseReactorFuelRod
-  name: High Enrichment Plutonium Fuel Rod #Triad
-  description: A very active plutonium fuel rod, mixed with depleted uranium. #Triad
+  name: Low Enrichment Plutonium Fuel Rod #Triad
+  description: A hot plutonium fuel rod, mixed with depleted uranium. #Triad
   components:
   - type: ReactorPart
-  - type: PhysicalComposition #Triad, prepping to make use of isotropics. 50% enrichment, cause the plutonium is a "mix" of isotopes rn.
-    materialComposition:
-      Plutonium: 500
-      UraniumDepleted: 500
-  # Triad: no ghost role; a mind on a rod stalls the ship save.
-  #- type: GhostRole
-  #  makeSentient: true
-  #  allowSpeech: true
-  #  allowMovement: false
-  #  name: ghost-role-information-plutonium-rod-name
-  #  description: ghost-role-information-plutonium-rod-description
-  #  rules: ghost-role-information-plutonium-rod-rules
-  #  mindRoles:
-  #  - MindRoleGhostRoleFreeAgentHarmless
-  #- type: GhostTakeoverAvailable
-  #- type: SentienceTarget
-  #  weight: 2
+    material: Plutonium
 
 - type: entity
   id: BananiumReactorFuelRod
