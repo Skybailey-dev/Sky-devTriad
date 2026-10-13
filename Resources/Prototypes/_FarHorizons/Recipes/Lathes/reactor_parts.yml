@@ -26,8 +26,8 @@
   result: UraniumReactorFuelRod
   materials:
     Steel: 500
-    UraniumFissile: 25 #triad
-    UraniumDepleted: 475 #triad
+    UraniumFissile: 15 #triad
+    UraniumDepleted: 485 #triad
 
 - type: latheRecipe #triad start, custom fuel rod recipes
   parent: BaseReactorPartRecipe
@@ -47,8 +47,8 @@
     Plasteel: 250
     Plastitanium: 250
     UraniumDepleted: 300
-    Plutonium: 50 #triad end
-    Iridite: 50
+    Plutonium: 50
+    Iridite: 50 #triad end
 
 - type: latheRecipe
   parent: BaseReactorPartRecipe
@@ -80,7 +80,7 @@
   id: UraniumGlassReactorFuelRod
   result: UraniumGlassReactorFuelRod
   materials:
-    Steel: 300 #triad- ceramic material
+    Steel: 300 #triad - ceramic (needs less structural.)
     UraniumGlass: 700 #triad
 
 # Control Rods
