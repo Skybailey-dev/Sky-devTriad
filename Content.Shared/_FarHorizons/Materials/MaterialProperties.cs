@@ -57,6 +57,7 @@ public sealed partial class MaterialProperties()
         ChemicalResistance = source.ChemicalResistance;
         Radioactivity = source.Radioactivity;
         NeutronRadioactivity = source.NeutronRadioactivity;
+        Fertility = source.Fertility;
         FissileIsotopes = source.FissileIsotopes;
         ActivePlasma = source.ActivePlasma;
     }

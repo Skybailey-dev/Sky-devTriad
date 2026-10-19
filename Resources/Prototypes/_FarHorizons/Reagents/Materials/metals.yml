@@ -24,7 +24,8 @@
     hard: 2
     density: 4
     chemical: 6
-    radioactive: 5 # R fuel heavy fuel, but NO n fuel.
+    radioactive: 5 # Triad- R fuel heavy fuel, but NO n fuel.
+    n_radioactive: 0.2 # Triad- almost no n fuel, but at least a little to enable some breeding.
     fertility: 0.5 #triad- underpreforms for plutonium production compared to breeder fuels.
 
 - type: material
