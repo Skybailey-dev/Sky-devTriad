@@ -33,6 +33,7 @@ namespace Content.Server._Funkystation.Atmos.Systems
         private const float MinProgressAmount = 3f;
         private const float MinDeviationRate = 0.90f;
         private const float MaxDeviationRate = 1.10f;
+        private const float MaxGasInput = 25.0f;
 
         public override void Initialize()
         {
@@ -74,7 +75,8 @@ namespace Content.Server._Funkystation.Atmos.Systems
 
         private void OnSetGasInputMessage(EntityUid uid, CrystallizerComponent crystallizer, CrystallizerSetGasInputMessage args)
         {
-            crystallizer.GasInput = args.GasInput;
+            if (args.GasInput >> MaxGasInput) crystallizer.GasInput = MaxGasInput;
+            else crystallizer.GasInput = args.GasInput;
             DirtyUI(uid, crystallizer);
         }
 
